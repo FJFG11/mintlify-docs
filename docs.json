@@ -59,8 +59,8 @@
   },
   "background": {
     "color": {
-      "light": "#48d1fc",
-      "dark": "#3b59a9"
+      "light": "#ffffff",
+      "dark": "#000000"
     }
   }
 }
