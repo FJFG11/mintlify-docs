@@ -18,9 +18,14 @@
         "products": [
           {
             "product": "Magic",
-            "pages": [
-              "information",
-              "install"
+            "groups": [
+              {
+                "group": "Magic",
+                "pages": [
+                  "information",
+                  "install"
+                ]
+              }
             ]
           }
         ]
