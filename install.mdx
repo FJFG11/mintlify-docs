@@ -1,0 +1,38 @@
+---
+title: "Install"
+---
+
+The basics on how to install **Magic** into your game with ease.
+
+<Steps>
+  <Step title="Acquiring Magic" icon="download">
+    Head over to the \[Magic Github page\]([https://github.com/FJFG11/Magic](https://github.com/FJFG11/Magic)) and click the **Releases** tab to find the latest version of **Magic** once you have done that find the `.rbmx` file and download it.
+  </Step>
+  <Step title="Adding it to your game" icon="plus-large">
+    Once the file has downloaded drag it in to your game then you will see a module script called `DebugMainModule` and move it to `ServerScriptService`.
+  </Step>
+  <Step title="Whitelisting" icon="clipboard-list" iconType="regular">
+    Now magic has been added to your game its time for you to whitelist yourself. Head over to the whitelist module (DebugMainModule / DebugExec / WHITELIST) and open it. You will see:
+
+    ```lua expandable lines
+    local wl = {
+    	Users = {
+    		[421517931] = true,
+    		[123456789] = true,
+    	},
+    
+    	Groups = {
+    		-- [GroupId] = minimumRank
+    --		[753140944] = 254,
+    	}
+    }
+    
+    return wl
+    ```
+
+    Now add your UserID under Users or add your group and a high ranking group rank.
+  </Step>
+  <Step title="Now what?" icon="question">
+    Now all the needed steps have been completed you now can go into a live game and use `;` for **CodeLine** or `'` for the **Suite**.
+  </Step>
+</Steps>
