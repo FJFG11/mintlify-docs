@@ -8,8 +8,8 @@
     "dark": "#144280"
   },
   "favicon": {
-    "light": "/favicon.svg",
-    "dark": "/favicon.svg"
+    "light": "/images/noFilter(10).webp",
+    "dark": "/images/noFilter(10).webp"
   },
   "navigation": {
     "tabs": [
@@ -33,8 +33,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/noFilter(10).webp",
+    "dark": "/images/noFilter(10).webp"
   },
   "navbar": {
     "links": [],
