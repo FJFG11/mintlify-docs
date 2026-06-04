@@ -49,12 +49,7 @@
     "dark": "/images/noFilter(10).webp"
   },
   "navbar": {
-    "links": [
-      {
-        "href": "https://discord.gg/2SmMSSkmmv",
-        "label": "Discord"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
