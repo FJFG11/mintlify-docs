@@ -1,0 +1,27 @@
+---
+title: "Install"
+icon: "download"
+---
+
+The basics on how to install **Ultimate** into your game with ease.
+
+<Steps>
+  <Step title="Acquiring Ultimate" icon="download">
+    Head over to the [Ultimate](https://github.com/FJFG11/Ultimate) and click the **Releases** tab to find the latest version of **Magic** once you have done that find the `.rbmx` file and download it.
+  </Step>
+  <Step title="Adding it to your game" icon="add">
+    Once the file has downloaded drag it in to your game then you will see a module script called `MainModule` and move it to `ServerScriptService`.
+  </Step>
+  <Step title="Setting thresholds" icon="code">
+    Head over to `game/ServerScriptService/MainModule` for the server threholds and for the client go to `game/ServerScriptService/MainModule/UltServer/UltClient` all release will have the preset threholds for the standard roblox character movement settings.
+  </Step>
+  <Step title="Whitelisting" icon="clipboard-list">
+    Go to `game/ServerScriptService/MainModule` and inside you will see the code shown below and replace the "YourIDHere" with your roblox userid.
+
+    ```lua expandable lines
+    ["Whitelist"] = {
+    		[YourIDHere] = true,
+    	},
+    ```
+  </Step>
+</Steps>
